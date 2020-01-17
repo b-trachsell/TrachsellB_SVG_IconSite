@@ -11,12 +11,8 @@
 
   // Finds the button element on the page by its id with javascript
   // Lets your javascript know what the button is
-  let theButton = document.querySelector("#myButton"),
-      theHeading = document.querySelector('h1'),
+  let theHeading = document.querySelector('h1'),
       allSVGs = document.querySelectorAll(".svg");
-
-
-
 
 // Creates the function to change the text
   function changeText() {
@@ -28,9 +24,7 @@
   }
 
 // Calls the function when the button is clicked
-// Usually mouse clicking or Hovers
-  theButton.addEventListener("click", changeText);
-
+// Usually mouse clicking or Hoveers
   allSVGs.forEach(item => item.addEventListener("click", logSVG));
 
 
