@@ -13,7 +13,8 @@
   // Lets your javascript know what the button is
   let theButton = document.querySelector("#myButton"),
       theHeading = document.querySelector('h1'),
-      svgImage = document.querySelector("#svgGraphic");
+      //svgImage = document.querySelector("#svgGraphic"),
+      allSVGs = document.querySelector(".svg");
 
 
 
@@ -30,7 +31,8 @@
 // Calls the function when the button is clicked
 // Usually mouse clicking or Hovers
   theButton.addEventListener("click", changeText);
-  svgImage.addEventListener("mouseover", logSVG);
+
+  allSVGs.forEach(item => item.addEventListener("click", logSVG));
 
 
 })();
