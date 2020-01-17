@@ -13,8 +13,7 @@
   // Lets your javascript know what the button is
   let theButton = document.querySelector("#myButton"),
       theHeading = document.querySelector('h1'),
-      //svgImage = document.querySelector("#svgGraphic"),
-      allSVGs = document.querySelector(".svg");
+      allSVGs = document.querySelectorAll(".svg");
 
 
 
