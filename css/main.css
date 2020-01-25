@@ -1,10 +1,27 @@
-.imageWrapper{
-  display: inline-block;
-  width: 45%;
-  margin:10px;
+#SVGs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-around;
+
+  padding-top: 75px;
+  border-top: 2px solid #cccccc;
+
+
 }
 
-.imageWrapper img {
+.svg{
+  width: 22%;
+  margin-top: 25px;
+  padding:20px 25px 5px 25px;
+  border-bottom: 2px solid #cccccc;
+  line-height: 13px;
+  text-align: center;
+  color: #5e4842;
+  background-color: #eeeeee;
+}
+
+.svg img {
   width:100%;
 }
 
@@ -13,11 +30,46 @@
 
 }
 
+#Head{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  line-height: 25px;
+  padding:10px;
+  color: #5e4842;
+}
+
+#Header1{
+  width: 65%;
+  padding:10px;
+  background-color: #aaaaee;
+}
+
+#Header2{
+  width: 35%;
+  padding:10px;
+  background-color: #cceeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.HeaderNav{
+  height: 30px;
+  width: 25%;
+  text-align: center;
+  padding:10px 6px;
+  background-color: #ffffff;
+}
+
+
+
 /* #lGrain:hover, #rGrain:hover{ */
   /* fill:red; */
 /* } */
 
-#beerGraphic:hover #lGrain{
+/*#beerGraphic:hover #lGrain{
   fill:red;
 }
 #beerGraphic:hover #rGrain{
@@ -30,3 +82,4 @@
 #beerGraphic:hover #rStar{
   fill:Yellow;
 }
+*/
